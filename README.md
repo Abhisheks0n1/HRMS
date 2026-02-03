@@ -17,3 +17,6 @@ Lightweight HRMS for employee and attendance management.
 - SQLite for simplicity.
 
 ## Live URL
+
+https://zippy-babka-b30160.netlify.app/
+
