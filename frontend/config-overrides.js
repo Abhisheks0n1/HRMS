@@ -13,11 +13,11 @@ module.exports = override(
     '@components': path.resolve(__dirname, 'src/components'),
   }),
 
-  // Suppress the specific warning
   (config) => {
     config.ignoreWarnings = [
       /Critical dependency: the request of a dependency is an expression/,
     ];
     return config;
   }
+
 );
